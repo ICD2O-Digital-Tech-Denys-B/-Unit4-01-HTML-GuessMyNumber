@@ -2,3 +2,10 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+* {
+    text-align: center;
+    color: blue;
+}
+body {
+        background-color: lightsalmon;
+}

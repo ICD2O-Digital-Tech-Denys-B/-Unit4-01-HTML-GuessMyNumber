@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>RandomNumber</title>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
   </head>
   <body>
-    <p>Paragraph</p>
+    <h1>Guess the number</h1>
+  <!--Inputs for the number-->
+    <p>Your guess</p>
+    <input type="number" min="1" max="10" placeholder="1-10" id="user-number">
+    <button onclick="checkNumber()">Check</button>
+    <br>
+    <!--Answer output paragraph-->
+    <p id="answer"></p>
+    <img src="images/numberz.jpg">
   </body>
 </html>
